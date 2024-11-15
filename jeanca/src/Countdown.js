@@ -12,7 +12,6 @@ function Countdown() {
       const newTimeLeft = calculateTimeLeft();
       setTimeLeft(newTimeLeft);
 
-      // Cuando llegue a cero, mostramos la carta
       if (
         newTimeLeft.days <= 0 &&
         newTimeLeft.hours <= 0 &&
